@@ -29,7 +29,8 @@ public class Main {
         try{
             students.settingNewStudent();
         } catch (Exception e){
-            System.out.println(e);
+//            System.out.println(e);
+            e.printStackTrace();
         } finally {
             System.out.println("Finally is always performed.");
         }
@@ -40,6 +41,7 @@ public class Main {
         // Task 4.2
         students.heapMemory(); // OutOfMemoryError
     }
+
 
 
 }
